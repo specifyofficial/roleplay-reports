@@ -1,0 +1,14 @@
+<meta>
+    <script src="main.lua" type="client" cache="false"/>
+    <script src="events.lua" type="server"/>
+
+	<script src="shared.lua" type="shared"/>
+	<export function="getReportTypes" type="shared" />
+	<export function="showToAdminPanel" type="server" />
+	<export function="reportLazyFix" type="server"/>
+	<file src="FontAwesome.ttf"/>
+	<file src="np-light.ttf"/>
+	<file src="np-bold.ttf"/>
+
+    <file src="assets/sound.mp3"/>
+</meta> 
